@@ -9,6 +9,8 @@
 
 // Your code:
 
+const getLength = (comprimento) => comprimento.length
+
 //* Begin of tests
 const assert = require('assert');
 

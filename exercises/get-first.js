@@ -9,6 +9,8 @@
 
 // Your code:
 
+const getFirst = (comprimento) => comprimento[0];
+
 //* Begin of tests
 const assert = require('assert');
 

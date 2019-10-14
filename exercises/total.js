@@ -8,6 +8,8 @@
 
 // Your code:
 
+const total = (array) => array.reduce((sum, number) => sum + number, 0);
+
 //* Begin of tests
 const assert = require('assert');
 

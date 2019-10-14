@@ -8,8 +8,15 @@
 
 // Your code:
 
+const yell = (string) =>
+    string.toUpperCase();
+
+
 //* Begin of tests
 const assert = require('assert');
 
-assert.fail('You must write your own tests');
+assert.strictEqual(typeof yell, 'function');
+assert.strictEqual(yell.length, 1);
+assert.strictEqual(yell('word'), 'WORD');
+
 // End of tests */

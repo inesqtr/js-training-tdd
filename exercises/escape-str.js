@@ -9,6 +9,8 @@
 
 // Your code:
 
+const escapeStr = "It/'s time to \"escape\" It`s okay?\\";
+
 //* Begin of tests
 const assert = require('assert');
 

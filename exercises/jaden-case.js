@@ -12,6 +12,9 @@
 
 // Your code:
 
+const jadenCase = (phrase) => {
+    
+
 //* Begin of tests
 const assert = require('assert');
 
